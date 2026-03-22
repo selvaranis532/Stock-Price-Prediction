@@ -11,11 +11,28 @@ Predict future stock prices using an RNN model based on historical closing price
 ## Design Steps
 
 ### Step 1:
-Write your own steps
+
+Import required libraries such as `torch`, `torch.nn`, `torch.optim`, `numpy`, `pandas`, and `matplotlib`.
 
 ### Step 2:
 
+Load the dataset (e.g., stock closing prices from CSV), preprocess it by **normalizing** values between 0 and 1, and create input sequences for training/testing.
+
 ### Step 3:
+
+Define the **RNN model architecture** with an input layer, hidden layers, and an output layer to predict stock prices.
+
+### Step 4:
+
+Compile the model using **MSELoss** as the loss function and **Adam optimizer**.
+
+### Step 5:
+
+Train the model on the training data, recording training losses for each epoch.
+
+### Step 6:
+
+Test the trained model on unseen data and visualize results by plotting the **true stock prices vs. predicted stock prices**.
 
 
 
